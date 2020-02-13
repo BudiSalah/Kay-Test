@@ -1,0 +1,73 @@
+:root {
+    --green-yellow: #C18E2C;
+    --green: #2E5E2E;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+form {
+    max-width: 520px;
+}
+
+form .form-group.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+form .form-headline {
+    color: var(--green);
+}
+
+form label,
+form .signin-btn,
+form .signup-btn {
+    background-color: var(--green);
+    color: var(--green-yellow);
+}
+
+form .input-wrapper {
+    background-color: var(--green-yellow);
+}
+
+form .input-wrapper input {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white;
+    direction: ltr !important;
+}
+
+form .form-btn-wrapper > * {
+    background-color: var(--green);
+}
+
+form .form-btn-wrapper > * {
+    background-color: var(--green);
+}
+
+form .signin-btn {
+    width: 207px;
+}
+
+form .signup-btn {
+    width: 285px;
+}
+
+footer .copyrights {
+    max-width: 380px;
+    border-top: 2px solid var(--green);
+    color: var(--green);
+}
+
+@media screen and (max-width: 567px) {
+    form .form-btn-wrapper {
+        flex-direction: column;
+    }
+
+    form .form-btn-wrapper > * {
+        width: 100%;
+    }
+}
